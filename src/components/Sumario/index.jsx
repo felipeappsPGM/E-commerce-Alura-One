@@ -9,8 +9,6 @@ const Sumario = ({ valorTotalCarrinho, quantidadeProdutos }) => {
   return (
     <div className="d-flex flex-column gap-3 sumario">
       <ResumoCompra
-        valorTotalCarrinho={valorTotalCarrinho}
-        quantidadeProdutos={quantidadeProdutos}
       />
       <div className="d-flex flex-column flex-md-row gap-2 mx-1 mx-lg-0 justify-content-between justify-content-md-evelyn">
         <Botao
